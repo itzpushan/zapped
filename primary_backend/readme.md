@@ -15,4 +15,6 @@ This server runs on **`localhost:3000`** during development and is built using *
 
 ```bash
 npm install
+npx prisma migrate dev
+npx prisma generate
 npm run dev
